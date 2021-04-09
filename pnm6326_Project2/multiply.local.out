@@ -1,0 +1,249 @@
+2020-10-08 21:36:22,534 INFO  [main] Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1049)) - session.id is deprecated. Instead, use dfs.metrics.session-id
+2020-10-08 21:36:22,539 INFO  [main] jvm.JvmMetrics (JvmMetrics.java:init(76)) - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2020-10-08 21:36:22,802 WARN  [main] mapreduce.JobSubmitter (JobSubmitter.java:copyAndConfigureFiles(153)) - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-10-08 21:36:22,828 INFO  [main] input.FileInputFormat (FileInputFormat.java:listStatus(281)) - Total input paths to process : 1
+2020-10-08 21:36:22,847 INFO  [main] input.FileInputFormat (FileInputFormat.java:listStatus(281)) - Total input paths to process : 1
+2020-10-08 21:36:22,869 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:submitJobInternal(494)) - number of splits:2
+2020-10-08 21:36:23,065 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:printTokens(583)) - Submitting tokens for job: job_local1992779976_0001
+2020-10-08 21:36:23,314 INFO  [main] mapreduce.Job (Job.java:submit(1300)) - The url to track the job: http://localhost:8080/
+2020-10-08 21:36:23,316 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1345)) - Running job: job_local1992779976_0001
+2020-10-08 21:36:23,319 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(471)) - OutputCommitter set in config null
+2020-10-08 21:36:23,330 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(489)) - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2020-10-08 21:36:23,445 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(448)) - Waiting for map tasks
+2020-10-08 21:36:23,446 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(224)) - Starting task: attempt_local1992779976_0001_m_000000_0
+2020-10-08 21:36:23,536 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:initialize(587)) -  Using ResourceCalculatorProcessTree : [ ]
+2020-10-08 21:36:23,539 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:runNewMapper(753)) - Processing split: file:/home/pnm6326/project2/M-matrix-small.txt:0+92
+2020-10-08 21:36:23,634 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:setEquator(1202)) - (EQUATOR) 0 kvi 26214396(104857584)
+2020-10-08 21:36:23,635 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(995)) - mapreduce.task.io.sort.mb: 100
+2020-10-08 21:36:23,635 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(996)) - soft limit at 83886080
+2020-10-08 21:36:23,635 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(997)) - bufstart = 0; bufvoid = 104857600
+2020-10-08 21:36:23,635 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(998)) - kvstart = 26214396; length = 6553600
+2020-10-08 21:36:23,650 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:createSortingCollector(402)) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-10-08 21:36:23,719 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 
+2020-10-08 21:36:23,736 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1457)) - Starting flush of map output
+2020-10-08 21:36:23,736 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1475)) - Spilling map output
+2020-10-08 21:36:23,736 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1476)) - bufstart = 0; bufend = 198; bufvoid = 104857600
+2020-10-08 21:36:23,737 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1478)) - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2020-10-08 21:36:23,741 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:sortAndSpill(1660)) - Finished spill 0
+2020-10-08 21:36:23,746 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1001)) - Task:attempt_local1992779976_0001_m_000000_0 is done. And is in the process of committing
+2020-10-08 21:36:23,762 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - map
+2020-10-08 21:36:23,762 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:sendDone(1121)) - Task 'attempt_local1992779976_0001_m_000000_0' done.
+2020-10-08 21:36:23,762 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(249)) - Finishing task: attempt_local1992779976_0001_m_000000_0
+2020-10-08 21:36:23,762 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(224)) - Starting task: attempt_local1992779976_0001_m_000001_0
+2020-10-08 21:36:23,765 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:initialize(587)) -  Using ResourceCalculatorProcessTree : [ ]
+2020-10-08 21:36:23,766 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:runNewMapper(753)) - Processing split: file:/home/pnm6326/project2/N-matrix-small.txt:0+67
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:setEquator(1202)) - (EQUATOR) 0 kvi 26214396(104857584)
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(995)) - mapreduce.task.io.sort.mb: 100
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(996)) - soft limit at 83886080
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(997)) - bufstart = 0; bufvoid = 104857600
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(998)) - kvstart = 26214396; length = 6553600
+2020-10-08 21:36:23,805 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:createSortingCollector(402)) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-10-08 21:36:23,823 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 
+2020-10-08 21:36:23,832 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1457)) - Starting flush of map output
+2020-10-08 21:36:23,832 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1475)) - Spilling map output
+2020-10-08 21:36:23,832 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1476)) - bufstart = 0; bufend = 144; bufvoid = 104857600
+2020-10-08 21:36:23,832 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1478)) - kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2020-10-08 21:36:23,833 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:sortAndSpill(1660)) - Finished spill 0
+2020-10-08 21:36:23,845 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1001)) - Task:attempt_local1992779976_0001_m_000001_0 is done. And is in the process of committing
+2020-10-08 21:36:23,846 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - map
+2020-10-08 21:36:23,846 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:sendDone(1121)) - Task 'attempt_local1992779976_0001_m_000001_0' done.
+2020-10-08 21:36:23,847 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(249)) - Finishing task: attempt_local1992779976_0001_m_000001_0
+2020-10-08 21:36:23,853 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(456)) - map task executor complete.
+2020-10-08 21:36:23,863 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(448)) - Waiting for reduce tasks
+2020-10-08 21:36:23,864 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(302)) - Starting task: attempt_local1992779976_0001_r_000000_0
+2020-10-08 21:36:23,878 INFO  [pool-3-thread-1] mapred.Task (Task.java:initialize(587)) -  Using ResourceCalculatorProcessTree : [ ]
+2020-10-08 21:36:23,880 INFO  [pool-3-thread-1] mapred.ReduceTask (ReduceTask.java:run(362)) - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@35115c8d
+2020-10-08 21:36:23,903 INFO  [pool-3-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(196)) - MergerManager: memoryLimit=709551680, maxSingleShuffleLimit=177387920, mergeThreshold=468304128, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2020-10-08 21:36:23,918 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(61)) - attempt_local1992779976_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2020-10-08 21:36:24,008 INFO  [localfetcher#1] reduce.LocalFetcher (LocalFetcher.java:copyMapOutput(141)) - localfetcher#1 about to shuffle output of map attempt_local1992779976_0001_m_000000_0 decomp: 222 len: 226 to MEMORY
+2020-10-08 21:36:24,013 INFO  [localfetcher#1] reduce.InMemoryMapOutput (InMemoryMapOutput.java:shuffle(100)) - Read 222 bytes from map-output for attempt_local1992779976_0001_m_000000_0
+2020-10-08 21:36:24,043 INFO  [localfetcher#1] reduce.MergeManagerImpl (MergeManagerImpl.java:closeInMemoryFile(314)) - closeInMemoryFile -> map-output of size: 222, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->222
+2020-10-08 21:36:24,058 INFO  [localfetcher#1] reduce.LocalFetcher (LocalFetcher.java:copyMapOutput(141)) - localfetcher#1 about to shuffle output of map attempt_local1992779976_0001_m_000001_0 decomp: 162 len: 166 to MEMORY
+2020-10-08 21:36:24,072 INFO  [localfetcher#1] reduce.InMemoryMapOutput (InMemoryMapOutput.java:shuffle(100)) - Read 162 bytes from map-output for attempt_local1992779976_0001_m_000001_0
+2020-10-08 21:36:24,072 INFO  [localfetcher#1] reduce.MergeManagerImpl (MergeManagerImpl.java:closeInMemoryFile(314)) - closeInMemoryFile -> map-output of size: 162, inMemoryMapOutputs.size() -> 2, commitMemory -> 222, usedMemory ->384
+2020-10-08 21:36:24,073 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(76)) - EventFetcher is interrupted.. Returning
+2020-10-08 21:36:24,074 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 2 / 2 copied.
+2020-10-08 21:36:24,074 INFO  [pool-3-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(674)) - finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2020-10-08 21:36:24,081 INFO  [pool-3-thread-1] mapred.Merger (Merger.java:merge(597)) - Merging 2 sorted segments
+2020-10-08 21:36:24,081 INFO  [pool-3-thread-1] mapred.Merger (Merger.java:merge(696)) - Down to the last merge-pass, with 2 segments left of total size: 372 bytes
+2020-10-08 21:36:24,082 INFO  [pool-3-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(751)) - Merged 2 segments, 384 bytes to disk to satisfy reduce memory limit
+2020-10-08 21:36:24,082 INFO  [pool-3-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(781)) - Merging 1 files, 386 bytes from disk
+2020-10-08 21:36:24,082 INFO  [pool-3-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(796)) - Merging 0 segments, 0 bytes from memory into reduce
+2020-10-08 21:36:24,083 INFO  [pool-3-thread-1] mapred.Merger (Merger.java:merge(597)) - Merging 1 sorted segments
+2020-10-08 21:36:24,085 WARN  [Readahead Thread #1] io.ReadaheadPool (ReadaheadPool.java:run(214)) - Failed readahead on ifile
+EBADF: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:267)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:146)
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-08 21:36:24,086 INFO  [pool-3-thread-1] mapred.Merger (Merger.java:merge(696)) - Down to the last merge-pass, with 1 segments left of total size: 376 bytes
+2020-10-08 21:36:24,096 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 2 / 2 copied.
+2020-10-08 21:36:24,112 INFO  [pool-3-thread-1] Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1049)) - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+Vector A:[0	 3	 -4.0, 0	 2	 1.0, 0	 1	 3.0, 0	 0	 5.0]
+Vector B:[1	 2	 -1.0, 1	 1	 -3.0, 1	 0	 5.0]
+Vector A:[0	 3	 2.0, 0	 0	 -3.0, 0	 1	 -2.0]
+Vector B:[1	 1	 8.0, 1	 2	 -2.0, 1	 0	 3.0]
+Vector A:[0	 1	 4.0, 0	 0	 -1.0, 0	 3	 7.0, 0	 2	 6.0]
+Vector B:[1	 1	 4.0, 1	 0	 9.0]
+2020-10-08 21:36:24,132 INFO  [pool-3-thread-1] mapred.Task (Task.java:done(1001)) - Task:attempt_local1992779976_0001_r_000000_0 is done. And is in the process of committing
+2020-10-08 21:36:24,133 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 2 / 2 copied.
+2020-10-08 21:36:24,133 INFO  [pool-3-thread-1] mapred.Task (Task.java:commit(1162)) - Task attempt_local1992779976_0001_r_000000_0 is allowed to commit now
+2020-10-08 21:36:24,136 INFO  [pool-3-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(439)) - Saved output of task 'attempt_local1992779976_0001_r_000000_0' to file:/home/pnm6326/project2/intermediate/_temporary/0/task_local1992779976_0001_r_000000
+2020-10-08 21:36:24,137 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - reduce > reduce
+2020-10-08 21:36:24,137 INFO  [pool-3-thread-1] mapred.Task (Task.java:sendDone(1121)) - Task 'attempt_local1992779976_0001_r_000000_0' done.
+2020-10-08 21:36:24,137 INFO  [pool-3-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(325)) - Finishing task: attempt_local1992779976_0001_r_000000_0
+2020-10-08 21:36:24,137 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(456)) - reduce task executor complete.
+2020-10-08 21:36:24,318 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1366)) - Job job_local1992779976_0001 running in uber mode : false
+2020-10-08 21:36:24,319 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1373)) -  map 100% reduce 100%
+2020-10-08 21:36:24,320 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1384)) - Job job_local1992779976_0001 completed successfully
+2020-10-08 21:36:24,344 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1391)) - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=27668
+		FILE: Number of bytes written=792973
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=19
+		Map output records=19
+		Map output bytes=342
+		Map output materialized bytes=392
+		Input split bytes=478
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=392
+		Reduce input records=19
+		Reduce output records=29
+		Spilled Records=38
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=36
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=652750848
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=779
+2020-10-08 21:36:24,381 INFO  [main] jvm.JvmMetrics (JvmMetrics.java:init(71)) - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2020-10-08 21:36:24,382 WARN  [main] mapreduce.JobSubmitter (JobSubmitter.java:copyAndConfigureFiles(153)) - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-10-08 21:36:24,439 INFO  [main] input.FileInputFormat (FileInputFormat.java:listStatus(281)) - Total input paths to process : 1
+2020-10-08 21:36:24,440 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:submitJobInternal(494)) - number of splits:1
+2020-10-08 21:36:24,453 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:printTokens(583)) - Submitting tokens for job: job_local157674651_0002
+2020-10-08 21:36:24,602 INFO  [main] mapreduce.Job (Job.java:submit(1300)) - The url to track the job: http://localhost:8080/
+2020-10-08 21:36:24,602 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1345)) - Running job: job_local157674651_0002
+2020-10-08 21:36:24,603 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(471)) - OutputCommitter set in config null
+2020-10-08 21:36:24,603 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(489)) - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2020-10-08 21:36:24,623 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(448)) - Waiting for map tasks
+2020-10-08 21:36:24,629 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(224)) - Starting task: attempt_local157674651_0002_m_000000_0
+2020-10-08 21:36:24,644 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:initialize(587)) -  Using ResourceCalculatorProcessTree : [ ]
+2020-10-08 21:36:24,646 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:runNewMapper(753)) - Processing split: file:/home/pnm6326/project2/intermediate/part-r-00000:0+763
+2020-10-08 21:36:24,695 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:setEquator(1202)) - (EQUATOR) 0 kvi 26214396(104857584)
+2020-10-08 21:36:24,695 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(995)) - mapreduce.task.io.sort.mb: 100
+2020-10-08 21:36:24,695 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(996)) - soft limit at 83886080
+2020-10-08 21:36:24,696 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(997)) - bufstart = 0; bufvoid = 104857600
+2020-10-08 21:36:24,696 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(998)) - kvstart = 26214396; length = 6553600
+2020-10-08 21:36:24,709 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:createSortingCollector(402)) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2020-10-08 21:36:24,720 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 
+2020-10-08 21:36:24,721 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1457)) - Starting flush of map output
+2020-10-08 21:36:24,721 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1475)) - Spilling map output
+2020-10-08 21:36:24,721 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1476)) - bufstart = 0; bufend = 464; bufvoid = 104857600
+2020-10-08 21:36:24,721 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1478)) - kvstart = 26214396(104857584); kvend = 26214284(104857136); length = 113/6553600
+2020-10-08 21:36:24,725 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:sortAndSpill(1660)) - Finished spill 0
+2020-10-08 21:36:24,726 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1001)) - Task:attempt_local157674651_0002_m_000000_0 is done. And is in the process of committing
+2020-10-08 21:36:24,739 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - map
+2020-10-08 21:36:24,739 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:sendDone(1121)) - Task 'attempt_local157674651_0002_m_000000_0' done.
+2020-10-08 21:36:24,739 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(249)) - Finishing task: attempt_local157674651_0002_m_000000_0
+2020-10-08 21:36:24,740 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(456)) - map task executor complete.
+2020-10-08 21:36:24,749 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(448)) - Waiting for reduce tasks
+2020-10-08 21:36:24,750 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(302)) - Starting task: attempt_local157674651_0002_r_000000_0
+2020-10-08 21:36:24,751 INFO  [pool-8-thread-1] mapred.Task (Task.java:initialize(587)) -  Using ResourceCalculatorProcessTree : [ ]
+2020-10-08 21:36:24,751 INFO  [pool-8-thread-1] mapred.ReduceTask (ReduceTask.java:run(362)) - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@23da69b3
+2020-10-08 21:36:24,761 INFO  [pool-8-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(196)) - MergerManager: memoryLimit=709551680, maxSingleShuffleLimit=177387920, mergeThreshold=468304128, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2020-10-08 21:36:24,762 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(61)) - attempt_local157674651_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2020-10-08 21:36:24,767 INFO  [localfetcher#2] reduce.LocalFetcher (LocalFetcher.java:copyMapOutput(141)) - localfetcher#2 about to shuffle output of map attempt_local157674651_0002_m_000000_0 decomp: 524 len: 528 to MEMORY
+2020-10-08 21:36:24,780 INFO  [localfetcher#2] reduce.InMemoryMapOutput (InMemoryMapOutput.java:shuffle(100)) - Read 524 bytes from map-output for attempt_local157674651_0002_m_000000_0
+2020-10-08 21:36:24,780 INFO  [localfetcher#2] reduce.MergeManagerImpl (MergeManagerImpl.java:closeInMemoryFile(314)) - closeInMemoryFile -> map-output of size: 524, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->524
+2020-10-08 21:36:24,781 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(76)) - EventFetcher is interrupted.. Returning
+2020-10-08 21:36:24,782 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 1 / 1 copied.
+2020-10-08 21:36:24,782 INFO  [pool-8-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(674)) - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2020-10-08 21:36:24,783 INFO  [pool-8-thread-1] mapred.Merger (Merger.java:merge(597)) - Merging 1 sorted segments
+2020-10-08 21:36:24,783 INFO  [pool-8-thread-1] mapred.Merger (Merger.java:merge(696)) - Down to the last merge-pass, with 1 segments left of total size: 514 bytes
+2020-10-08 21:36:24,783 INFO  [pool-8-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(751)) - Merged 1 segments, 524 bytes to disk to satisfy reduce memory limit
+2020-10-08 21:36:24,784 INFO  [pool-8-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(781)) - Merging 1 files, 528 bytes from disk
+2020-10-08 21:36:24,784 INFO  [pool-8-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(796)) - Merging 0 segments, 0 bytes from memory into reduce
+2020-10-08 21:36:24,784 INFO  [pool-8-thread-1] mapred.Merger (Merger.java:merge(597)) - Merging 1 sorted segments
+2020-10-08 21:36:24,784 INFO  [pool-8-thread-1] mapred.Merger (Merger.java:merge(696)) - Down to the last merge-pass, with 1 segments left of total size: 514 bytes
+2020-10-08 21:36:24,784 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 1 / 1 copied.
+2020-10-08 21:36:24,790 WARN  [Readahead Thread #3] io.ReadaheadPool (ReadaheadPool.java:run(214)) - Failed readahead on ifile
+EBADF: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:267)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:146)
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-08 21:36:24,801 INFO  [pool-8-thread-1] mapred.Task (Task.java:done(1001)) - Task:attempt_local157674651_0002_r_000000_0 is done. And is in the process of committing
+2020-10-08 21:36:24,802 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - 1 / 1 copied.
+2020-10-08 21:36:24,802 INFO  [pool-8-thread-1] mapred.Task (Task.java:commit(1162)) - Task attempt_local157674651_0002_r_000000_0 is allowed to commit now
+2020-10-08 21:36:24,804 INFO  [pool-8-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(439)) - Saved output of task 'attempt_local157674651_0002_r_000000_0' to file:/home/pnm6326/project2/output/_temporary/0/task_local157674651_0002_r_000000
+2020-10-08 21:36:24,805 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(591)) - reduce > reduce
+2020-10-08 21:36:24,805 INFO  [pool-8-thread-1] mapred.Task (Task.java:sendDone(1121)) - Task 'attempt_local157674651_0002_r_000000_0' done.
+2020-10-08 21:36:24,805 INFO  [pool-8-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(325)) - Finishing task: attempt_local157674651_0002_r_000000_0
+2020-10-08 21:36:24,805 INFO  [Thread-15] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(456)) - reduce task executor complete.
+2020-10-08 21:36:25,603 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1366)) - Job job_local157674651_0002 running in uber mode : false
+2020-10-08 21:36:25,603 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1373)) -  map 100% reduce 100%
+2020-10-08 21:36:25,603 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1384)) - Job job_local157674651_0002 completed successfully
+2020-10-08 21:36:25,605 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1391)) - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=38794
+		FILE: Number of bytes written=1054931
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=29
+		Map output records=29
+		Map output bytes=464
+		Map output materialized bytes=528
+		Input split bytes=118
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=12
+		Reduce shuffle bytes=528
+		Reduce input records=29
+		Reduce output records=12
+		Spilled Records=58
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=28
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=436215808
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=779
+	File Output Format Counters 
+		Bytes Written=117
